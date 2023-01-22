@@ -1,9 +1,9 @@
 # DRBG (NIST SP800-90A)
 ## DRBG Mechanism
 ### Instantiating
-#### <Input>
+#### Input:
 Instantiate_function(requested_instantiation_security_strength, prediction_resistance_flag, personalization_string)
-#### <Output>
+#### Output:
 status, state_handle
 #### <Process>
 1. Checks the  validity of the input parameters
